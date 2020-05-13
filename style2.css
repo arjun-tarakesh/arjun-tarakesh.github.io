@@ -1,0 +1,351 @@
+body,html{
+	margin: 0;
+	font-family: "cairo", sans-serif;
+}
+
+.nav-bar{
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 48px;
+    font-size: 24px;
+    margin:10px;
+    color: black;
+    font-weight: bold;
+    background: none;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+img.hey{
+	height: 400px;
+	width: 400px;
+}
+a{
+ 	color: black;
+ 	text-decoration: none;
+ }
+ a:hover{
+ 	transition: ease .3s;
+ 	background-color:#f12711;
+ 	color: white;
+ 	border-radius: 20px;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ }
+
+.Maininfo{
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	height: 106vh;
+	background:linear-gradient(0deg, rgba(255,115,0,.85) 0%, rgba(255,230,0,.85) 90%), url(https://media.giphy.com/media/55f9nMoZykqV1fGUAD/giphy.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.introtext{
+		
+		padding: 3px;
+		padding-top: 130px;
+		margin-left: -90px;
+	}
+	.introtext>h1{
+		font-size: 60px;
+		font-weight: bolder;
+		margin-bottom: 15px;
+	}
+	.introtext>h2{
+		margin-top: -55px;
+		font-size: 40px;
+	}
+	.introtext>h5{
+		margin-top: -53px;
+		font-size: 17px;
+		margin-left: 9px;
+	}
+.About{
+	display: flex;
+
+	align-items: center;
+	background: linear-gradient(to right, #f12711, #f5af19);
+	margin: 40px;
+	padding: 40px;
+	border-radius: 21px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.About>img.aboutimg{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.abouttext>h3{
+	font-weight: bolder;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 0;
+
+
+}
+.abouttext>hr{
+	color: white;
+	border-radius: 10px;
+	border-style: solid;
+	background-color: white;
+	border-color: none;
+	width: 40px;
+	height: 3px;
+	margin-left: 0px;
+	margin-top: -14px;
+}
+.abouttext>p{
+	color: white;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: "Roboto" ,sans-serif;
+	font-weight: normal;
+}
+.Skills{
+	margin-top: 60px;
+	display: flex;
+	margin-left: 80px;
+	
+}
+.Skills>img{
+	height: 400px;
+	width: 400px;
+	margin-top: 50px;
+}
+.skilllist{
+	padding-left: 50px;
+	margin-top: 40px;
+	
+	width: 900px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border-radius: 20px;
+	margin-right: 15px;
+}
+.skilllist>h3{
+	font-size: 44px;
+	margin-bottom: 0;
+}
+.skillul>ul{
+	list-style: disc;
+
+}
+.skilllist>hr{
+	margin-top: -15px;
+	height: 8px;
+	background: linear-gradient(to right, #aa076b, #61045f);
+	border: none;
+	width: 200px;
+	margin-left: 0;
+	border-radius: 20px;
+}
+ul.skillul{
+	font-weight: bolder;
+	font-size: 18px;
+
+}
+ul.skillul li::before {color:red} 
+.Certificates{
+		margin: auto;
+}
+.Certificates{
+	margin-top: 30px;
+	padding: 200px;
+	background: linear-gradient(77deg, rgba(207,4,4,.8) 0%, rgba(255,145,0,.8) 90%), url(https://media.giphy.com/media/11KzOet1ElBDz2/giphy.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+a.Cert{
+	background-color: white;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+a.Cert:hover{
+	transform: scale(1.2,1.2);
+	color: black;
+	transition: ease .2s;
+	box-shadow: 
+}
+.contact{
+
+	background-color: ;
+	height: 40vh;
+
+}
+.links-sm{
+	display: flex;
+	justify-content: space-around;
+	background-color: ;
+	align-items: center;
+	margin-top: 50px;
+
+
+}
+.links-sm>a,img{
+	width: 70px;
+	height: 70px;
+}
+.links-sm>a:hover{
+	transition: ease .3s;
+ 	background:linear-gradient(77deg, rgba(207,4,4,0) 0%, rgba(255,145,0,0) 90%);
+ 	transform:none;
+ 	box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ 	border-radius: 20px;
+ 	padding:10px;
+ 	
+
+}
+.contact>h1{
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	margin-left: 32px;
+	margin-bottom: 20px;
+}
+}
+
+/*REsponsiveness*/
+@media only screen and (max-width: 750px) {
+
+	img.hey
+	{
+		height: 300px;
+		width: 300px;
+	}
+	.introtext>h1{
+		font-size: 55px;
+		margin-left: 30px;
+		margin-top: -10px;
+
+	}.introtext>h2{
+		
+		margin-left: 30px;
+
+	}.introtext>h5{
+		
+		margin-left: 30px;
+
+	}
+	img.skillimg{
+		height: 300px;
+		width: 300px;
+		margin-left: -110px;
+		margin-top: auto;
+	}
+	.skilllist{
+		width: 350px;
+		margin-left: -10px;
+	}
+	
+
+	a.Cert{
+		width: 200px;
+		height: 50px;
+		font-size: 25px;
+		padding-left: 19px;
+		padding-right: 0px;
+		align-items: center;
+		
+	}
+
+}
+/*end*/
+@media only screen and (max-width: 750px) {
+	.nav-bar{
+		font-size: 18px;
+	}
+	.Maininfo{
+		
+		margin-right: -40px;
+		height: 100vh;
+	}
+	.About{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: 60px;	
+	}
+	.Skills{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	img.hey
+	{
+		
+		height: 250px;
+		width: 250px;
+		margin-left: -45px;
+	}
+	.introtext{
+		margin-left: -40px;
+	}
+	.introtext>h1{
+		font-size: 45px;
+		margin-left: -25px;
+		margin-top: -28px;
+
+	}.introtext>h2{
+		font-size: 30px;
+		margin-left: -25px;
+
+	}.introtext>h5{
+		font-size: 13px;
+		margin-left: -25px;
+		padding-top: 12px;
+		
+
+	}
+	.abouttext>p{
+		font-size: 16px;
+
+	}
+	img.skillimg{
+		height: 350px;
+		width: 350px;
+		margin-left: -40px;
+		margin-top: auto;
+	}
+	.skilllist{
+		width: 350px;
+		margin-left: -40px;
+		padding-left: -60px;
+	}
+	a.Cert{
+		white-space: nowrap;
+		
+	}
+	.Certificates{
+		
+		margin-right: -30px;
+	}
+	
+
+
+}
+
